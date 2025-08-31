@@ -1,13 +1,208 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* color: #ffffff; */
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f7f7;
+}
+
+header {
+  background-color: #2f3d57;
+  padding: 1rem 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.header-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.links {
+  padding: 5px 8px;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  border-bottom: #2f3d57 2px solid;
+  transition: all .4s;
+  color: #ffffff;
+}
+
+.links:hover {
+  border-bottom: #ffffff 2px solid;
+}
+
+.links .material-symbols-outlined {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.banner {
+  background-image: url(../public/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+
+.banner-div {
+  background: #080e2779;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.promise {
+  background-color: #ffffff33;
+  padding: 1.5rem;
+  width: 70%;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat {
+  border-bottom: #22c74c thin solid;
+  color: #22c74c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 120px;
+}
+
+.WhatsApp-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.main {
+  width: 1000px;
+  background-color: #ffffff;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header-section-div {
+  padding: 1rem 0;
+  border-bottom: #cacaca 2px solid;
+  color: #696868;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header-section-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.service-list,
+.feature-list {
+  list-style: none;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 400px);
+  width: max-content;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: #818080 4px 4px 15px;
+  border-radius: 10px;
+  color: #696868;
+  text-align: center;
+}
+
+.card-text-div {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  max-height: 178px;
+  /* height: 200px; */
+}
+
+.card-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.review-list,
+.faq-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.reviews {
+  background-color: #3f5172;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.faq-div {
+  color: #696868;
+  border: #d3d3d3 2px solid;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ask {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.answer {
+  font-weight: 600;
+}
+
+footer {
+  background-color: #e4e4e4;
+  padding: 3rem;
+  text-align: center;
+  color: #696868;
+  width: 100%;
 }
