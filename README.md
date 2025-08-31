@@ -16,7 +16,7 @@ El desarrollo de este proyecto tiene como objetivo demostrar mis habilidades en 
 ## Estrategias utilizadas
 
 ### Para el desarrollo de la landing page utilice las siguientes estrategias
-- Stack de tecnologias: Node.js - Ract - CSS3 - Git
+- Stack de tecnologias: Node.js - React - JavaScript - CSS3 - Git
 - Investigar sobre servicios similares para tener una mejor vision del producto final
 - Utilizar recursos como IA, Galería de imágenes, librería de fuentes, para acceder a material de uso libre
 
