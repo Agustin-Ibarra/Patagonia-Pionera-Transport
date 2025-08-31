@@ -38,36 +38,36 @@ Para el proyecto se utilizo imagenes, fuentes, iconos provenientes de:
 ## Visuales de la pagina version mobile
 
 ### Hero
-<img src="/patagonia-app/public/images/Captura de pantalla (610).png" alt="shop UI" width="300"/>
+<img src="/public/images/Captura de pantalla (610).png" alt="shop UI" width="300"/>
 
 ### Menu
-<img src="/patagonia-app/public/images/Captura de pantalla (611).png" alt="shop UI" width="300"/>
+<img src="/public/images/Captura de pantalla (611).png" alt="shop UI" width="300"/>
 
 ### Servicios
-<img src="/patagonia-app/public/images/Captura de pantalla (612).png" alt="shop UI" width="300"/>
+<img src="/public/images/Captura de pantalla (612).png" alt="shop UI" width="300"/>
 
 ### Porque elegirnos
-<img src="/patagonia-app/public/images/Captura de pantalla (613).png" alt="shop UI" width="300"/>
+<img src="/public/images/Captura de pantalla (613).png" alt="shop UI" width="300"/>
 
 ### Testimonios
-<img src="/patagonia-app/public/images/Captura de pantalla (614).png" alt="shop UI" width="300"/>
+<img src="/public/images/Captura de pantalla (614).png" alt="shop UI" width="300"/>
 
 ### FAQ
-<img src="/patagonia-app/public/images/Captura de pantalla (615).png" alt="shop UI" width="300"/>
+<img src="/public/images/Captura de pantalla (615).png" alt="shop UI" width="300"/>
 
 ## Visuales de la pagina version desktop
 
 ### Hero
-<img src="/patagonia-app/public/images/Captura de pantalla (605).png" alt="shop UI" width="600"/>
+<img src="/public/images/Captura de pantalla (605).png" alt="shop UI" width="600"/>
 
 ### Servicios
-<img src="/patagonia-app/public/images/Captura de pantalla (606).png" alt="shop UI" width="600"/>
+<img src="/public/images/Captura de pantalla (606).png" alt="shop UI" width="600"/>
 
 ### Porque elegirnos
-<img src="/patagonia-app/public/images/Captura de pantalla (607).png" alt="shop UI" width="600"/>
+<img src="/public/images/Captura de pantalla (607).png" alt="shop UI" width="600"/>
 
 ### Testimonios
-<img src="/patagonia-app/public/images/Captura de pantalla (608).png" alt="shop UI" width="600"/>
+<img src="/public/images/Captura de pantalla (608).png" alt="shop UI" width="600"/>
 
 ### FAQ
-<img src="/patagonia-app/public/images/Captura de pantalla (609).png" alt="shop UI" width="600"/>
+<img src="/public/images/Captura de pantalla (609).png" alt="shop UI" width="600"/>
